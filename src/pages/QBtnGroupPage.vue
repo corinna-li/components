@@ -127,15 +127,15 @@ export default {
       menuItems:[
         {
           label: 'Ajax Bar',
-          to: '/ajax-bar'
+          to: '/ajax-bar',
         },
         {
           label: 'Avatar',
-          to: '/Avatar'
+          to: '/Avatar',
         },
         {
           label: 'btnGroup',
-          to: '/btnGroup'
+          to: '/btnGroup',
         },
       ]
     }
