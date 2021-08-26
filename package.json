@@ -1,0 +1,48 @@
+{
+  "name": "components",
+  "version": "0.0.1",
+  "description": "playing with quasar components",
+  "productName": "playing with quasar components",
+  "author": "coco",
+  "private": true,
+  "scripts": {
+    "startDev": "NODE_ENV=dev quasar dev",
+    "buildDev": "NODE_ENV=dev quasar build",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "dotenv": "^10.0.0",
+    "quasar": "^2.0.0",
+    "read-excel-file": "^5.2.9",
+    "vue-i18n": "^9.0.0-beta.0",
+    "vue-xlsx": "^0.2.1",
+    "vue3-xlsx": "^1.1.1",
+    "vuex": "^4.0.1",
+    "xlsx": "^0.17.1"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "^13.1.7",
+    "webpack-bundle-analyzer": "^4.4.2"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
